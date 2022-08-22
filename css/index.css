@@ -92,3 +92,51 @@ nav .signin-btn {
     left: 220px;
     width: 80px;
 }
+
+@media only screen and (max-width: 1065px) {
+    nav {
+        overflow-x: auto;
+        padding-left: 20px;
+        height: 14vh;
+    }
+    nav .signin-btn {
+        padding: 10px 0px;
+        min-width: 100px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .nav-items {
+        margin-left: 40px;
+    }
+    .intro-section .imgs-div img:nth-child(3) {
+        display: block;
+        position: absolute;
+        left: -360px;
+        top: 120px;
+        width: 400px;
+        opacity: .2;
+        z-index: -1;
+    }
+    .intro-section .imgs-div img:nth-child(2) {
+        display: none;
+    }
+    .intro-section .imgs-div img:nth-child(1) {
+        display: none;
+    }
+    .left-section h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .intro-section {
+        justify-content: center;
+    }
+    .intro-section .learn-more-btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .intro-section h4 {
+        margin-bottom: 30px;
+        line-height: 25px;
+        color: #272727;
+    }
+} 
